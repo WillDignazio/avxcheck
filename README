@@ -1,0 +1,14 @@
+		       Intel AVX Check Utility
+
+Building:
+
+	$ nasm -felf64 avxcheck.asm	# Use elf32 for 32 bit Linux
+	$ ld -o avxcheck avxcheck.asm
+
+Using:
+
+	$ ./avxcheck
+
+	
+
+
